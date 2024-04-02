@@ -1,5 +1,7 @@
 $lightbackground: green;
 $h1: beige;
+$mainbackground: white;
+$mainbackgroundopacity: 75%;
 $bookpadding: 50px;
 $border: 2px solid black;
 $bookimgborderradius: 5%;
@@ -23,34 +25,39 @@ h1{
     color: $h1;
     border: $border;
     font-size: $h1FS;
+    border-radius: $bookdivradius;
+    background-color: black;
 }
 .intro{
     p,h2{
         text-align: center;
         vertical-align: 10px;
     }
+    border-radius: $bookdivradius;
     border: $border;
     // display: grid;
     width: 550px;
     // height: 50px;
     padding: $bookpadding / 2;
     margin-top: 10px;
+    background-color: $mainbackground;
 }
 .book{
-    background
-    border: :$border;
+    border: $border;
     border-radius: $bookdivradius;
     display: flex;
     width: 500px;
     height: 200px;
     padding: $bookpadding;
-    margin-top: 10px;
+    margin-top: 11px;
     align-items: center;
     justify-content: space-between;
     font-size: $anchorFS;
+    background-color: $mainbackground;
     img{
-        height: 100%;
-        border-radius: $bookborderradius;
+        // height: 100%;
+        max-width: 100px;
+        border-radius: $bookimgborderradius;
     }
 }
 footer{

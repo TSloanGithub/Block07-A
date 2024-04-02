@@ -13,13 +13,17 @@ h1 {
   color: beige;
   border: 2px solid black;
   font-size: 36px;
+  border-radius: 10px;
+  background-color: black;
 }
 
 .intro {
+  border-radius: 10px;
   border: 2px solid black;
   width: 550px;
   padding: 25px;
   margin-top: 10px;
+  background-color: white;
 }
 .intro p, .intro h2 {
   text-align: center;
@@ -33,16 +37,14 @@ h1 {
   width: 500px;
   height: 200px;
   padding: 50px;
-  margin-top: 10px;
+  margin-top: 11px;
   align-items: center;
   justify-content: space-between;
   font-size: 24px;
-}
-.book p {
-  text-align: center;
+  background-color: white;
 }
 .book img {
-  height: 100%;
+  max-width: 100px;
   border-radius: 5%;
 }
 
