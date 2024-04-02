@@ -1,0 +1,52 @@
+.grid {
+  display: grid;
+  background-color: green;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  height: auto;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+  color: beige;
+  border: 2px solid black;
+  font-size: 36px;
+}
+
+.intro {
+  border: 2px solid black;
+  width: 550px;
+  padding: 25px;
+  margin-top: 10px;
+}
+.intro p, .intro h2 {
+  text-align: center;
+  vertical-align: 10px;
+}
+
+.book {
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  width: 500px;
+  height: 200px;
+  padding: 50px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 24px;
+}
+.book p {
+  text-align: center;
+}
+.book img {
+  height: 100%;
+  border-radius: 5%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=style.css.map */
